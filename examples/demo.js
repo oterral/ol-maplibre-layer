@@ -14,7 +14,7 @@ window.map = new Map({
     new MapLibreLayer({
       mapLibreOptions: {
         style:
-          'https://vectortiles.geo.admin.ch/styles/ch.swisstopo.leichte-basiskarte_world.vt/style.json',
+          'https://maps.geops.io/styles/tralis_munich_schematic_v3/style.json?key=5cc87b12d7c5370001c1d655112ec5c21e0f441792cfc2fafe3e7a1e',
       },
       source: new Source({
         attributions: [
@@ -28,8 +28,8 @@ window.map = new Map({
   ],
   target: 'map',
   view: new View({
-    center: [924582, 5950164],
-    zoom: 8,
+    center: [2406279, 1722649],
+    zoom: 5.5,
   }),
 });
 
